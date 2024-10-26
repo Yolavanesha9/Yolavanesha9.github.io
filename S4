@@ -33,3 +33,50 @@ $CONFIG = array (
   'dbpassword' => 'android888',
   'installed' => true,
 );
+
+
+
+
+
+
+
+<?php
+$CONFIG = array (
+  'instanceid' => 'ockr9lvaknfg',
+  'passwordsalt' => 'gdZBEtVGYhQuX8vZWCf8JStt05SXd5',
+  'secret' => 'YO7W4Z2wx7nRADMp0joQDLLpRC2kWsR+yUnpHUccBXb/nrvD',
+  'trusted_domains' => 
+  array (
+    0 => 'cloudsgetcdn.tech',
+  ),
+  'datadirectory' => '/home/cloudsgetcdn/htdocs/cloudsgetcdn.tech/data',
+  'overwrite.cli.url' => 'https://cloudsgetcdn.tech',
+  'dbtype' => 'mysql',
+  'version' => '10.15.0.2',
+  'dbname' => 'clouds',
+  'dbconnectionstring' => '',
+  'dbhost' => '127.0.0.1:3306',
+  'dbtableprefix' => 'oc_',
+  'mysql.utf8mb4' => true,
+  'dbuser' => 'clouds',
+  'dbpassword' => 'android777',
+  'allow_user_to_change_mail_address' => '',
+  'logtimezone' => 'UTC',
+  'apps_paths' => 
+  array (
+    0 => 
+    array (
+      'path' => '/home/cloudsgetcdn/htdocs/cloudsgetcdn.tech/apps',
+      'url' => '/apps',
+      'writable' => false,
+    ),
+    1 => 
+    array (
+      'path' => '/home/cloudsgetcdn/htdocs/cloudsgetcdn.tech/apps-external',
+      'url' => '/apps-external',
+      'writable' => true,
+    ),
+  ),
+  'installed' => true,
+);
+
