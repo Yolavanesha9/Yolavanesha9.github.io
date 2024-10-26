@@ -10,10 +10,10 @@ $CONFIG = array (
   'objectstore' => [
           'class' => '\\OC\\Files\\ObjectStore\\S3', 
           'arguments' => [
-                  'bucket' => 's3etzyyy',
-                  'hostname' => 's3etzyyy.sgp1.digitaloceanspaces.com',
-                  'key' => 'DO00VQ3H3E373XA8QQNZ',
-                  'secret' => 'C/2GvkRjDoUH0UaEAaT6S4ZEZPNPOm+eving2kf0zIQ',
+                  'bucket' => 'owncl',
+                  'hostname' => 'tor1.digitaloceanspaces.com',
+                  'key' => 'DO00EEWW3MRW7LVY9HEB',
+                  'secret' => 'pXAHHHk5GR8y1wHAvlR1OwbSbwe9UQDFohoRaCpcyA0',
                   'port' => 443,
                   'use ssl' => true,
                   // required for some non-Amazon S3 implementations 
